@@ -1,0 +1,65 @@
+html{
+
+    height: 100%;
+}
+
+body{
+    margin-top: 0px;
+}
+
+H1{
+    font-size: 54px;
+    color: red;
+    border: 2px solid black;
+    padding: 3px;
+    width: 25%;
+    float:left;
+    margin-top: 0px;
+    background-color: cornflowerblue;
+
+}
+
+h2{
+    font-size: 54px;
+    color:yellow; 
+    border: 2px solid black;
+    padding: 3px;
+    width: 25%;
+    float:right;
+    margin-top: 0px;
+    background-color:crimson;
+
+}
+
+p{
+    clear:both;
+}
+
+h3{
+    font-size: 54px;
+    color:green;
+    border: 2px solid black;
+    padding: 3px;
+    width: 25%;
+    float:left;
+    margin-top: 0px;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0px;
+    background-color:darkkhaki;
+}
+
+h4{
+    font-size: 54px;
+    color:indigo;
+    border:2px solid black;
+    padding: 3px;
+    width: 25%;
+    float:right;
+    margin-top: 0px;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0px;
+    right: 0; 
+    background-color:darksalmon;
+}

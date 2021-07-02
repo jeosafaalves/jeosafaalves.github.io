@@ -1,0 +1,72 @@
+nav{
+    color: blue;
+    font-size: 30px;
+    border-style: none;
+}
+.rodape{
+    color: black;
+    float:none;
+    margin-top: 0px;
+    font-size: 15px;
+    text-align:center;
+    margin-left: 0,2cm;
+    background-color:indigo;
+    
+
+}
+.logo{
+   float:inline-start;
+   width:300px;
+   display:center;
+   animation:bounce 1s infinite alternate;
+   animation-direction:alternate-reverse;
+}
+
+body{
+    background-color:orangered;
+    margin: 0 auto;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    margin-left: 0cm;
+    margin-right: 0cm;
+    
+}
+
+.geo{
+    text-align:justify;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+}
+
+.cabeça{
+    text-align: center;
+    
+}
+.rosa{
+    text-align: center;
+}
+
+.gif{
+    text-align: center;
+}
+
+
+h1{
+    color:yellow;
+    background-color:indigo;
+    text-align: center;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    margin-left: 0cm;
+    margin-right: 0cm;
+}
+  
+@keyframes bounce{
+    0%{transform:translateX(1000px);}
+    100%{transform:translateX(-50px);}
+}

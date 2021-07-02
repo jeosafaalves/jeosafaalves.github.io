@@ -1,0 +1,35 @@
+body{
+    background-color:orangered;
+    background-repeat: unset;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+    margin-left: 0cm;
+    margin-right: 0cm;
+}
+
+p{
+    text-align:justify;
+    font-size: 20px;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+}
+.grafia{
+    float:inline-start;
+   width:300px;
+   display:center;
+   animation:bounce 1s infinite alternate;
+   animation-direction:alternate-reverse;
+}
+@keyframes bounce{
+    0%{transform:translateX(1000px);}
+    100%{transform:translateX(-10px);}
+}
